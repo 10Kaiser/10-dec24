@@ -1,0 +1,13 @@
+    <script>
+
+let text = "";
+const rider = [ "Den-O" , "Decade","Drive"];
+rider.forEach(funct);
+
+function funct(item,index){
+    text +=   item + "<br>";
+    
+}
+document.getElementById("demo").innerHTML= text;
+
+    </script>
